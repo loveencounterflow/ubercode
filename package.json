@@ -1,0 +1,26 @@
+{
+  "name": "ubercode",
+  "version": "1.0.0",
+  "description": "Extending Unicode Crowdwise",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loveencounterflow/ubercode.git"
+  },
+  "keywords": [
+    "unicode",
+    "PUA",
+    "text",
+    "encoding",
+    "charset"
+  ],
+  "author": "",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/loveencounterflow/ubercode/issues"
+  },
+  "homepage": "https://github.com/loveencounterflow/ubercode"
+}
