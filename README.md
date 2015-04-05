@@ -3,7 +3,7 @@
 
 
 
-# ubercode
+# UberCode
 
 Extending Unicode Crowdwise
 
@@ -31,11 +31,11 @@ Extending Unicode Crowdwise
 >    add information to a text what interpretation is intended for subsequent PUA
 >    codepoints.
 >
->    For example, a text like "foo{http://folk.uib.no/hnooh/mufi/specs/MUFI-
->    Alphabetic-3-0.pdf}bar" (where the curly braces have to be replaced by
+>    For example, a text like `foo{http://folk.uib.no/hnooh/mufi/specs/MUFI-
+>    Alphabetic-3-0.pdf}bar[U+EFA3]` (where the curly braces have to be replaced by
 >    special codepoints similar to the annotation marks, the URL should not point
 >    to a PDF but to a formally defined HTML resource that details intents and
->    downloadable fonts, and the part should be replaced by a suitable
+>    downloadable fonts, and the `[U+EFA3]` part should be replaced by a suitable
 >    representation of that codepoint) could indicate that the text to be
 >    rendered should be "foobar" (i.e. seven letters, with the fourth one
 >    interpreted according to the Medieval Unicode Font Initiative's proposal). I
@@ -54,7 +54,7 @@ Extending Unicode Crowdwise
 >    the standard could be freed from a lot of pressure to implement this,
 >    implement that, and we still could have a global, unified encoding scheme.
 >    Also, we could in fact annotate our PUA usages in a more consistent and more
->    future-proof way.—Sunday, April 05, 2015 3:14:00 pm
+>    future-proof way.
 
 >    Just two more things to complete the above proposal:
 >
@@ -69,7 +69,7 @@ Extending Unicode Crowdwise
 >    B—PUA extensions endorsed and listed by Unicode.org (NB conflicting usages
 >    of single codepoints must be possible, that's what the disambiguating URL is
 >    for); C–any annotated PUA usages that are not officially listed; D—any
->    unannotated usages of PUA codepoints.—Sunday, April 05, 2015 3:21:00 pm
+>    unannotated usages of PUA codepoints.
 
 >    To prove i'm serious here, i gave the effort a name: UberCode; i opened a
 >    project on GitHub: https://github.com/loveencounterflow/ubercode; published
@@ -91,4 +91,4 @@ Extending Unicode Crowdwise
 >    Encodings that have proven useful may stand a better chance to get officially
 >    accepted in some future version of the Unicode standard. Of course, codepoints
 >    will have to be changed when moving out of the PUA and into the official
->    standard, so there will be a way to describe such mappings as well.
+>    standard, so there will be a way to describe such mappings as well.—Sunday, April 05, 2015
