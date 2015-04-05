@@ -70,3 +70,25 @@ Extending Unicode Crowdwise
 >    of single codepoints must be possible, that's what the disambiguating URL is
 >    for); C–any annotated PUA usages that are not officially listed; D—any
 >    unannotated usages of PUA codepoints.—Sunday, April 05, 2015 3:21:00 pm
+
+>    To prove i'm serious here, i gave the effort a name: UberCode; i opened a
+>    project on GitHub: https://github.com/loveencounterflow/ubercode; published
+>    an npm (i.e. NodeJS) package: https://www.npmjs.com/package/ubercode; and i
+>    so happen to own a suitable domain: <a
+>    href='http://uberco.de'>uberco.de</a> (which right now is not used for the
+>    purpose, but can be reactivated any time).
+>    
+>    The plan is to build a reference implementation in JavaScript that works in
+>    the browser; the second target (for plain text files) will probably be the
+>    Atom text editor (which is built on HTML and JavaScript, so it's a logical
+>    step; in fact, i've already used it for the purpose for a year, so I can
+>    attest the technology is there and does work).
+>    
+>    The overarching goal is to convince people that the Unicode Private Use
+>    codepoints are really a great thing, because it enables authors to define
+>    encodings with a low entry barrier. What is missing is a way to publish such
+>    encodings in a formalized way so others can benefit from such definitions.
+>    Encodings that have proven useful may stand a better chance to get officially
+>    accepted in some future version of the Unicode standard. Of course, codepoints
+>    will have to be changed when moving out of the PUA and into the official
+>    standard, so there will be a way to describe such mappings as well.
