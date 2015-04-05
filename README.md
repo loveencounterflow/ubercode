@@ -37,7 +37,7 @@ Extending Unicode Crowdwise
 >    to a PDF but to a formally defined HTML resource that details intents and
 >    downloadable fonts, and the `[U+EFA3]` part should be replaced by a suitable
 >    representation of that codepoint) could indicate that the text to be
->    rendered should be "foobar" (i.e. seven letters, with the fourth one
+>    rendered should be `foo[U+EFA3]bar` (i.e. seven letters, with the fourth one
 >    interpreted according to the Medieval Unicode Font Initiative's proposal). I
 >    know this does look awkward, I know this is just off of the top of my head,
 >    I know this goes way beyond encoding text as we know it and starts to look
